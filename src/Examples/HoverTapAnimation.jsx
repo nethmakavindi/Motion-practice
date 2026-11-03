@@ -1,12 +1,12 @@
-
 import { motion } from "motion/react";
 
 function HoverTapAnimation() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-slate-900">
       <motion.button
-        whileHover={{ scale: 1.2 }}
-        whileTap={{ scale: 0.9 }}
+        whileHover={{ scale: 1.2, rotate: 90 }}
+        whileTap={{ scale: 0.9, rotate: 180 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
         className="rounded-xl bg-orange-500 px-10 py-5 text-2xl font-bold text-white"
       >
         Click Me!
