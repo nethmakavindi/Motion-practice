@@ -1,12 +1,38 @@
-
+import BasicAnimation from "./Examples/BasicAnimation";
 import FirstAnimation from "./Examples/FirstAnimation";
+import HoverTapAnimation from "./Examples/HoverTapAnimation";
 
 function App() {
-  
+  return (
+    <div className="bg-slate-900 p-12 text-white">
 
-  
- return <FirstAnimation/>;
+      <h1 className="mb-16 text-center text-4xl font-bold">
+        Motion Practice
+      </h1>
 
+      <section className="mb-24">
+        <h2 className="mb-8 text-2xl font-bold">
+          01. Basic Animation
+        </h2>
+        <BasicAnimation />
+      </section>
+
+      <section className="mb-24">
+        <h2 className="mb-8 text-2xl font-bold">
+          02. Rotation Animation
+        </h2>
+        <FirstAnimation />
+      </section>
+
+      <section className="mb-24">
+        <h2 className="mb-8 text-2xl font-bold">
+          03. Hover & Tap Animation
+        </h2>
+        <HoverTapAnimation />
+      </section>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
