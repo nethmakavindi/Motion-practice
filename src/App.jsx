@@ -4,6 +4,7 @@ import HoverTapAnimation from "./Examples/HoverTapAnimation";
 import ScrollAnimation from "./Examples/ScrollAnimation";
 import LayoutAnimation from "./Examples/LayoutAnimation"
 import ExitAnimation from "./Examples/ExitAnimation";
+import EnterAnimation from "./Examples/EnterAnimation";
 
 function App() {
   return (
@@ -53,6 +54,14 @@ function App() {
   </h2>
 
   <ExitAnimation />
+</section>
+
+ <section className="mb-24">
+  <h2 className="mb-8 text-2xl font-bold">
+    09. Enter Animation
+  </h2>
+
+  <EnterAnimation />
 </section>
     </div>
   );
