@@ -3,6 +3,7 @@ import FirstAnimation from "./Examples/FirstAnimation";
 import HoverTapAnimation from "./Examples/HoverTapAnimation";
 import ScrollAnimation from "./Examples/ScrollAnimation";
 import LayoutAnimation from "./Examples/LayoutAnimation"
+import ExitAnimation from "./Examples/ExitAnimation";
 
 function App() {
   return (
@@ -46,7 +47,13 @@ function App() {
   </h2>
   <LayoutAnimation />
 </section>
+ <section className="mb-24">
+  <h2 className="mb-8 text-2xl font-bold">
+    08. Exit Animation
+  </h2>
 
+  <ExitAnimation />
+</section>
     </div>
   );
 }
