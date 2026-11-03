@@ -4,7 +4,7 @@ function FirstAnimation() {
   return (
     <div className="flex min-h-screen items-center justify-center">
       <motion.ul
-        animate={{ rotate: 360 }}
+        animate={{ rotate: 720 }}
         transition={{ duration: 3, repeat: Infinity, repeatType: "mirror" }}
         className="h-32 w-32 rounded-xl bg-orange-500"
       >

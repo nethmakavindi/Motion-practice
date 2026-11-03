@@ -8,8 +8,8 @@ function BasicAnimation() {
       padding: "50px"
     }}>
       <motion.div
-        animate={{ rotate: 360 }}
-        transition={{ duration: 2, repeat: Infinity }}
+        animate={{ rotate: 180 }}
+        transition={{ duration: 0.2, repeat: 3 ,delay: 3, ease:"easeInOut" }}
         style={{
           width: "120px",
           height: "120px",
