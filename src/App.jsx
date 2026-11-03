@@ -2,6 +2,7 @@ import BasicAnimation from "./Examples/BasicAnimation";
 import FirstAnimation from "./Examples/FirstAnimation";
 import HoverTapAnimation from "./Examples/HoverTapAnimation";
 import ScrollAnimation from "./Examples/ScrollAnimation";
+import LayoutAnimation from "./Examples/LayoutAnimation"
 
 function App() {
   return (
@@ -37,6 +38,13 @@ function App() {
     04. Scroll Animation
   </h2>
   <ScrollAnimation />
+</section>
+
+<section className="mb-24">
+  <h2 className="mb-8 text-2xl font-bold">
+    05. Layout Animation
+  </h2>
+  <LayoutAnimation />
 </section>
 
     </div>
